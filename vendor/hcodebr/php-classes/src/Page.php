@@ -47,7 +47,8 @@ use Rain\Tpl;
      }
 
      public function __destruct(){
-
+     
+         $this->tpl->draw("footer");
      }
 
  }
